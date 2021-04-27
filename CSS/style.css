@@ -16,7 +16,7 @@
       rgba(0, 0, 0, 0.5),
       rgba(9, 9, 121, 0.5)
     ),
-    url(../Images/img-1.jpg);
+    url(../images/img-1.jpg);
   height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
