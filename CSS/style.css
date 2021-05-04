@@ -226,7 +226,7 @@ span {
 
 .donate-title {
   font-size: 36px;
-  margin: 50px 0 25px;
+  margin: 50px 0 5px;
 }
 
 .donate-text {
@@ -243,6 +243,12 @@ span {
 .gofundme:hover {
   transform: rotate(-45deg);
   color: #eee;
+}
+
+.photo {
+  -webkit-box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.54);
+  box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.54);
+  height: 98.5%;
 }
 
 footer {
@@ -278,12 +284,16 @@ footer {
     clip-path: polygon(0 0%, 100% 0%, 100% 100%, 0% 100%);
   }
 
+  .feature-img {
+    padding-top: 0;
+  }
+
   .feature-title {
     font-size: 30px;
     margin-bottom: 8px;
     text-align: center;
     color: #eeeeee;
-    padding-top: 70px;
+    padding-top: 0px;
   }
 
   .feature-title__sub {
@@ -302,12 +312,11 @@ footer {
 
   .donate-title {
     font-size: 30px;
-    margin: 30px 0 0;
   }
 
   .para {
     font-size: 18px;
-    padding: 25px 10px;
+    padding: 15px;
     margin: 0 auto;
   }
 
